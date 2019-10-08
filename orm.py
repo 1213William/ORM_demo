@@ -170,8 +170,8 @@ class Name(Model):
 res = Name.select()
 # 循环遍历删除
 for i in res:
-	if i.name == 'egon':
-		i.delete(name='egon')
+	if i.name == '1213William':
+		i.delete(name='1213William')
 # # print(res)  # 返回出来的是一个列表  要是想取出来就必须要使用索引取值
 # res.name = 'jason'
 # 改
